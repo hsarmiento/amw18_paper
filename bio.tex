@@ -1,0 +1,214 @@
+\begin{thebibliography}{5}
+	
+	%%% ====================================================================
+	%%% NOTE TO THE USER: you can override these defaults by providing
+	%%% customized versions of any of these macros before the \bibliography
+	%%% command.  Each of them MUST provide its own final punctuation,
+	%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+	%%% do not use final punctuation, in order to avoid confusing it with
+	%%% the Web address.
+	%%%
+	%%% To suppress output of a particular field, define its macro to expand
+	%%% to an empty string, or better, \unskip, like this:
+	%%%
+	%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+	%%%
+	%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+	%%%
+	%%% ====================================================================
+	
+	\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+	\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+	\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+	\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+	\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+	\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+	\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+	\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+	\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+	% The following commands are used for tagged output and should be
+	% invisible to TeX
+	\providecommand\bibfield[2]{#2}
+	\providecommand\bibinfo[2]{#2}
+	\providecommand\natexlab[1]{#1}
+	\providecommand\showeprint[2][]{arXiv:#2}
+	
+	\bibitem[\protect\citeauthoryear{Abel, Hauff, Houben, Stronkman, and Tao}{Abel
+		et~al\mbox{.}}{2012}]%
+	{abel2012twitcident}
+	\bibfield{author}{\bibinfo{person}{Fabian Abel}, \bibinfo{person}{Claudia
+			Hauff}, \bibinfo{person}{Geert-Jan Houben}, \bibinfo{person}{Richard
+			Stronkman}, {and} \bibinfo{person}{Ke Tao}.} \bibinfo{year}{2012}\natexlab{}.
+	\newblock \showarticletitle{Twitcident: fighting fire with information from
+		social web streams}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st
+			International Conference on World Wide Web}}. ACM, \bibinfo{pages}{305--308}.
+	
+	\bibitem[\protect\citeauthoryear{Bruns and Burgess}{Bruns and Burgess}{2012}]%
+	{bruns2012local}
+	\bibfield{author}{\bibinfo{person}{Axel Bruns} {and} \bibinfo{person}{Jean~E
+			Burgess}.} \bibinfo{year}{2012}\natexlab{}.
+	\newblock \showarticletitle{Local and global responses to disaster:\# eqnz and
+		the Christchurch earthquake}. In \bibinfo{booktitle}{\emph{Disaster and
+			emergency management conference, conference proceedings}},
+	Vol.~\bibinfo{volume}{2012}. AST Management Pty Ltd,
+	\bibinfo{pages}{86--103}.
+	
+	\bibitem[\protect\citeauthoryear{Cameron, Power, Robinson, and Yin}{Cameron
+		et~al\mbox{.}}{2012}]%
+	{cameron2012emergency}
+	\bibfield{author}{\bibinfo{person}{Mark~A Cameron}, \bibinfo{person}{Robert
+			Power}, \bibinfo{person}{Bella Robinson}, {and} \bibinfo{person}{Jie Yin}.}
+	\bibinfo{year}{2012}\natexlab{}.
+	\newblock \showarticletitle{Emergency situation awareness from twitter for
+		crisis management}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st
+			International Conference on World Wide Web}}. ACM, \bibinfo{pages}{695--698}.
+
+	\bibitem[\protect\citeauthoryear{Caragea, McNeese, Jaiswal, Traylor, Kim,
+		Mitra, Wu, Tapia, Giles, Jansen, et~al\mbox{.}}{Caragea
+		et~al\mbox{.}}{2011}]%
+	{caragea2011classifying}
+	\bibfield{author}{\bibinfo{person}{Cornelia Caragea}, \bibinfo{person}{Nathan
+			McNeese}, \bibinfo{person}{Anuj Jaiswal}, \bibinfo{person}{Greg Traylor},
+		\bibinfo{person}{Hyun-Woo Kim}, \bibinfo{person}{Prasenjit Mitra},
+		\bibinfo{person}{Dinghao Wu}, \bibinfo{person}{Andrea~H Tapia},
+		\bibinfo{person}{Lee Giles}, \bibinfo{person}{Bernard~J Jansen},
+		{et~al\mbox{.}}} \bibinfo{year}{2011}\natexlab{}.
+	\newblock \showarticletitle{Classifying text messages for the Haiti
+		earthquake}. In \bibinfo{booktitle}{\emph{Proceedings of the 8th
+			international conference on information systems for crisis response and
+			management (ISCRAM2011)}}. Citeseer.
+	
+	\bibitem[\protect\citeauthoryear{Castillo}{Castillo}{2016}]%
+	{castillo2016big}
+	\bibfield{author}{\bibinfo{person}{Carlos Castillo}.}
+	\bibinfo{year}{2016}\natexlab{}.
+	\newblock \bibinfo{booktitle}{\emph{Big crisis data: social media in disasters
+			and time-critical situations}}.
+	\newblock \bibinfo{publisher}{Cambridge University Press}.
+	
+	\bibitem[\protect\citeauthoryear{Guzman and Poblete}{Guzman and
+		Poblete}{2013}]%
+	{guzman2013line}
+	\bibfield{author}{\bibinfo{person}{Jheser Guzman} {and}
+		\bibinfo{person}{Barbara Poblete}.} \bibinfo{year}{2013}\natexlab{}.
+	\newblock \showarticletitle{On-line relevant anomaly detection in the Twitter
+		stream: an efficient bursty keyword detection model}. In
+	\bibinfo{booktitle}{\emph{Proceedings of the acm sigkdd workshop on outlier
+			detection and description}}. ACM, \bibinfo{pages}{31--39}.
+
+	
+	\bibitem[\protect\citeauthoryear{Hecht, Hong, Suh, and Chi}{Hecht
+		et~al\mbox{.}}{2011}]%
+	{hecht2011tweets}
+	\bibfield{author}{\bibinfo{person}{Brent Hecht}, \bibinfo{person}{Lichan Hong},
+		\bibinfo{person}{Bongwon Suh}, {and} \bibinfo{person}{Ed~H Chi}.}
+	\bibinfo{year}{2011}\natexlab{}.
+	\newblock \showarticletitle{Tweets from Justin Bieber's heart: the dynamics of
+		the location field in user profiles}. In
+	\bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on human
+			factors in computing systems}}. ACM, \bibinfo{pages}{237--246}.
+
+	
+	\bibitem[\protect\citeauthoryear{Imran, Castillo, Lucas, Meier, and
+		Vieweg}{Imran et~al\mbox{.}}{2014}]%
+	{imranaidr2014}
+	\bibfield{author}{\bibinfo{person}{Muhammad Imran}, \bibinfo{person}{Carlos
+			Castillo}, \bibinfo{person}{Ji Lucas}, \bibinfo{person}{Patrick Meier}, {and}
+		\bibinfo{person}{Sarah Vieweg}.} \bibinfo{year}{2014}\natexlab{}.
+	\newblock \showarticletitle{Aidr: Artificial intelligence for disaster
+		response}. In \bibinfo{booktitle}{\emph{Proceedings of the companion
+			publication of the 23rd international conference on World wide web
+			companion}}. International World Wide Web Conferences Steering Committee,
+	\bibinfo{pages}{159--162}.
+
+	
+	\bibitem[\protect\citeauthoryear{Imran, Elbassuoni, Castillo, Diaz, and
+		Meier}{Imran et~al\mbox{.}}{2013}]%
+	{imran2013extracting}
+	\bibfield{author}{\bibinfo{person}{Muhammad Imran}, \bibinfo{person}{Shady
+			Elbassuoni}, \bibinfo{person}{Carlos Castillo}, \bibinfo{person}{Fernando
+			Diaz}, {and} \bibinfo{person}{Patrick Meier}.}
+	\newblock \showarticletitle{Extracting information nuggets from
+		disaster-Related messages in social media.}. In
+	\bibinfo{booktitle}{\emph{ISCRAM}}.
+
+
+	\bibitem[\protect\citeauthoryear{Maldonado, Guzman, and Poblete}{Maldonado
+		et~al\mbox{.}}{2017}]%
+	{maldonado2017}
+	\bibfield{author}{\bibinfo{person}{Jazmine Maldonado}, \bibinfo{person}{Jheser
+			Guzman}, {and} \bibinfo{person}{Barbara Poblete}.}
+	\bibinfo{year}{2017}\natexlab{}.
+	\newblock \showarticletitle{A Lightweight and Real-Time Worldwide Earthquake
+		Detection and Monitoring System Based on Citizen Sensors}. In
+	\bibinfo{booktitle}{\emph{Proceedings of the Fifth Conference of Human
+			Computation and Crowdsourcing}}. AAAI, \bibinfo{pages}{137--146}.
+
+	
+	\bibitem[\protect\citeauthoryear{Olteanu, Castillo, Diaz, and Vieweg}{Olteanu
+		et~al\mbox{.}}{2014}]%
+	{olteanu2014}
+	\bibfield{author}{\bibinfo{person}{Alexandra Olteanu}, \bibinfo{person}{Carlos
+			Castillo}, \bibinfo{person}{Fernando Diaz}, {and} \bibinfo{person}{Sarah
+			Vieweg}.} \bibinfo{year}{2014}\natexlab{}.
+	\newblock \showarticletitle{CrisisLex: A Lexicon for Collecting and Filtering
+		Microblogged Communications in Crises.}. In
+	\bibinfo{booktitle}{\emph{ICWSM}}.
+
+	
+	\bibitem[\protect\citeauthoryear{Olteanu, Vieweg, and Castillo}{Olteanu
+		et~al\mbox{.}}{2015}]%
+	{olteanu2015expect}
+	\bibfield{author}{\bibinfo{person}{Alexandra Olteanu}, \bibinfo{person}{Sarah
+			Vieweg}, {and} \bibinfo{person}{Carlos Castillo}.}
+	\bibinfo{year}{2015}\natexlab{}.
+	\newblock \showarticletitle{What to expect when the unexpected happens: Social
+		media communications across crises}. In \bibinfo{booktitle}{\emph{Proceedings
+			of the 18th ACM Conference on Computer Supported Cooperative Work \& Social
+			Computing}}. ACM, \bibinfo{pages}{994--1009}.
+
+	
+	\bibitem[\protect\citeauthoryear{Potts, Seitzinger, Jones, and Harrison}{Potts
+		et~al\mbox{.}}{2011}]%
+	{potts2011tweeting}
+	\bibfield{author}{\bibinfo{person}{Liza Potts}, \bibinfo{person}{Joyce
+			Seitzinger}, \bibinfo{person}{Dave Jones}, {and} \bibinfo{person}{Angela
+			Harrison}.} \bibinfo{year}{2011}\natexlab{}.
+	\newblock \showarticletitle{Tweeting disaster: hashtag constructions and
+		collisions}. In \bibinfo{booktitle}{\emph{Proceedings of the 29th ACM
+			international conference on Design of communication}}. ACM,
+	\bibinfo{pages}{235--240}.
+
+	
+	\bibitem[\protect\citeauthoryear{Stowe, Paul, Palmer, Palen, and
+		Anderson}{Stowe et~al\mbox{.}}{2016}]%
+	{stowe2016identifying}
+	\bibfield{author}{\bibinfo{person}{Kevin Stowe}, \bibinfo{person}{Michael~J
+			Paul}, \bibinfo{person}{Martha Palmer}, \bibinfo{person}{Leysia Palen}, {and}
+		\bibinfo{person}{Kenneth Anderson}.} \bibinfo{year}{2016}\natexlab{}.
+	\newblock \showarticletitle{Identifying and categorizing disaster-related
+		tweets}. In \bibinfo{booktitle}{\emph{Proceedings of The Fourth International
+			Workshop on Natural Language Processing for Social Media}}.
+	\bibinfo{pages}{1--6}.
+
+	\bibitem[\protect\citeauthoryear{Walther and Kaisser}{Walther and
+		Kaisser}{2013}]%
+	{walther2013geo}
+	\bibfield{author}{\bibinfo{person}{Maximilian Walther} {and}
+		\bibinfo{person}{Michael Kaisser}.} \bibinfo{year}{2013}\natexlab{}.
+	\newblock \showarticletitle{Geo-spatial Event Detection in the Twitter
+		Stream.}. In \bibinfo{booktitle}{\emph{ECIR}}. Springer,
+	\bibinfo{pages}{356--367}.
+
+	
+	\bibitem[\protect\citeauthoryear{Yin, Karimi, and Lingad}{Yin
+		et~al\mbox{.}}{2014}]%
+	{yin2014pinpointing}
+	\bibfield{author}{\bibinfo{person}{Jie Yin}, \bibinfo{person}{Sarvnaz Karimi},
+		{and} \bibinfo{person}{John Lingad}.} \bibinfo{year}{2014}\natexlab{}.
+	\newblock \showarticletitle{Pinpointing locational focus in microblogs}. In
+	\bibinfo{booktitle}{\emph{Proceedings of the 2014 Australasian Document
+			Computing Symposium}}. ACM, \bibinfo{pages}{66}.
+	
+	
+\end{thebibliography}
